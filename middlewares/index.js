@@ -1,5 +1,5 @@
-const verifySignUp = require("./verifySingup");
+const verifySingUp = require("./verifySingUp");
 
 module.exports = {
-  verifySignUp,
+  verifySingUp,
 };
