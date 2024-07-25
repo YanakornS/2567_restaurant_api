@@ -18,4 +18,6 @@ db.User.belongsToMany(db.Role,{
 db.Role.belongsToMany(db.User, {
   through: "user_roles",
 });
+
+
 module.exports = db;

@@ -3,6 +3,7 @@ const router = express.Router();
 const authController = require("../controllers/auth.controller");
 const { verifySingUp } = require("../middlewares");
 
+
 //http://localhost:5000/api/v1/auth/
 //Create a signup
 
